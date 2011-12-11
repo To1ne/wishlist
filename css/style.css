@@ -1,0 +1,387 @@
+@charset "UTF-8";
+/*------------------------------------*\
+	CONTENTS
+\*------------------------------------*/
+/*
+RESET
+SHARED
+CLEARFIX
+MAIN
+TYPE
+WISH-LIST
+NAV
+IMAGES
+TABLES
+MISC
+PRINT
+*/
+
+
+
+
+
+/*------------------------------------*\
+	$RESET
+\*------------------------------------*/
+/*
+A more considered reset; more of a restart...
+*/
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,hr,
+a,abbr,address,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strong,sub,sup,tt,var,
+b,u,i,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{
+	margin:0;
+	padding:0;
+}
+article,aside,details,figcaption,figure,footer,
+header,hgroup,menu,nav,section{
+	display:block;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+strong,b,mark{
+	font-weight:bold;
+	font-style:inherit;
+}
+em,i,cite,q,address,dfn,var{
+	font-style:italic;
+	font-weight:inherit;
+}
+abbr[title],dfn[title]{
+	cursor:help;
+	border-bottom:1px dotted;
+}
+ins{
+	border-bottom:1px solid;
+}
+a,u,ins{
+	text-decoration:none;
+}
+del,s{
+	text-decoration:line-through;
+}
+pre,code,samp,kbd{
+	font-family:monospace;
+}
+small{
+	font-size:0.75em;
+}
+img{
+	border:none;
+	font-style:italic;
+}
+input,
+select,option,optgroup,
+textarea{
+	font:inherit;
+}
+
+
+
+
+
+/*------------------------------------*\
+	$SHARED
+\*------------------------------------*/
+/* Common margin-bottom for vertical rhythm. */
+h1,h2,h3,h4,h5,h6,
+ul,ol,dl,
+p,
+table,
+form,
+pre,
+hr,
+.source,
+.nav,
+.photo{
+	margin-bottom:24px;
+	margin-bottom:1.5rem;
+}
+
+h1,h2,h3,h4,h5,h6,
+a{
+	color:#c00;
+}
+
+/* Default indentation value for lists etc. */
+ul,ol,dd{
+	margin-left:1.5em;
+}
+
+/* Font-sharing. */
+h1,h2,h3,h4,h5,h6{
+	font-family:"Helvetica Neue", Arial, sans-serif;
+	text-shadow:0 1px 1px rgba(255,255,255,0.75),0 -1px 1px rgba(0,0,0,0.25);
+}
+
+label,
+.text-input,
+textarea,
+.btn{
+	cursor:pointer;
+}
+.text-input:active,
+.text-input:focus,
+textarea:active,
+textarea:focus{
+	cursor:text;
+}
+
+
+
+
+
+/*------------------------------------*\
+	$CLEARFIX
+\*------------------------------------*/
+/*
+Big up @necolas: http://nicolasgallagher.com/micro-clearfix-hack/
+*/
+.cf:before,
+.cf:after{
+	content:"";
+	display:table;
+}
+.cf:after{
+	clear:both;
+}
+.cf{
+	zoom:1;
+}
+
+
+
+
+
+/*------------------------------------*\
+	$MAIN
+\*------------------------------------*/
+html{
+	font:1em/1.5 Georgia, serif; /* 16px with 24px baseline. */
+	overflow-y:scroll;
+	color:#333;
+}
+body{
+	max-width:640px;
+	padding:1.5em;
+	margin:0 auto;
+}
+
+
+
+
+
+/*------------------------------------*\
+	$TYPE
+\*------------------------------------*/
+/*--- HEADINGS ---*/
+h1,.alpha{
+	font-size:48px;
+	font-size:3rem;
+	line-height:1;
+}
+h2,.beta{
+	font-size:32px;
+	font-size:2rem;
+	line-height:1.5;
+}
+h3,.gamma{
+	font-size:Xpx;
+	font-size:Xrem;
+	line-height:;
+}
+h4,.delta{
+	font-size:Xpx;
+	font-size:Xrem;
+	line-height:;
+}
+h5,.epsilon{
+	font-size:Xpx;
+	font-size:Xrem;
+	line-height:;
+}
+h6,.zeta{
+	font-size:Xpx;
+	font-size:Xrem;
+	line-height:;
+}
+
+/*--- LINKS ---*/
+	a:hover{
+		text-decoration:underline;
+	}
+
+/*--- LISTS ---*/
+li > ul,
+li > ol{
+	margin-bottom:0;
+}
+
+/*--- QUOTES ---*/
+/*
+Big up @boblet: http://html5doctor.com/blockquote-q-cite/
+*/
+q{ quotes:"‘" "’" "“" "”"; }
+
+q:before{ content:"‘"; content:open-quote; }
+q:after{ content:"’"; content:close-quote; }
+
+q q:before{ content: "“"; content: open-quote; }
+q q:after{ content: "”"; content: close-quote; }
+
+blockquote{ quotes: "“" "”"; }
+blockquote p:before{ content: "“"; content: open-quote; }
+blockquote p:after{ content: ""; content: no-close-quote; }
+blockquote p:last-of-type:after{ content: "”"; content: close-quote; }
+
+blockquote{
+	text-indent:-0.4em;
+}
+.source{
+	display:block;
+	text-indent:0;
+	margin-top:-Xpx;
+	margin-top:-Xrem;
+}
+.source:before{
+	content:"—";
+}
+
+
+
+
+
+/*------------------------------------*\
+	$WISH-LIST
+\*------------------------------------*/
+.wish-list{
+	margin-left:0;
+	list-style:none;
+	border-top:1px solid #ccc;
+}
+	.wish-list > li{
+		padding-top:24px;
+		padding-top:1.5rem;
+		border-bottom:1px solid #ccc;
+	}
+
+
+
+
+
+/*------------------------------------*\
+	$NAV
+\*------------------------------------*/
+.nav{
+	list-style:none;
+	margin-left:0;
+}
+	.nav li{
+		display:inline;
+	}
+		.nav a{
+			display:inline-block;
+		}
+		
+/*--- ITEM LINKS ---*/
+.item-links:before{
+		content:"Link(s):";
+}
+	.item-links li:before{
+		content:"| ";
+		color:#ccc;
+	}
+		.item-links li:first-child:before{
+			content:"";
+		}
+
+
+
+
+
+/*------------------------------------*\
+	$IMAGES
+\*------------------------------------*/
+img{
+	max-width:100%;
+	height:auto;
+}
+.photo{
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+
+
+
+
+/*------------------------------------*\
+	$TABLES
+\*------------------------------------*/
+table{
+	width:100%;
+}
+
+
+
+
+
+/*------------------------------------*\
+	$MISC
+\*------------------------------------*/
+.accessibility{ position:absolute; left:-99999px; }
+
+
+
+
+
+/*------------------------------------*\
+	$PRINT
+\*------------------------------------*/
+@media print{
+	
+*{
+	color:black!important; /* Save the user money on coloured ink. */
+}
+a:after{
+	content:" ("attr(href)")";
+	word-wrap:break-word;
+	color:#666;
+}
+.item-links a{
+	display:inline;
+}
+
+body{
+	width:75%;
+	max-width:none;
+	padding-right:0;
+	padding-left:0;
+}
+
+.photo{
+	width:25%; /* Making the photo smaller means less ink needed to print things. */
+	float:left;
+	margin-right:5%;
+}
+.wish-list > li{
+	clear:left;
+	width:100%;
+	overflow:hidden;
+}
+
+}
