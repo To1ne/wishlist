@@ -298,7 +298,7 @@ blockquote{
 		
 /*--- ITEM LINKS ---*/
 .item-links:before{
-		content:"Link(s):";
+/*		content:"Link(s):";*/
 }
 	.item-links li:before{
 		content:"| ";
@@ -307,6 +307,41 @@ blockquote{
 		.item-links li:first-child:before{
 			content:"";
 		}
+/*
+.price,.link{
+	display:block;
+	text-align:right;
+	margin-bottom:24px;
+}
+.link a{
+	font-family:Cambria;
+	font-variant:small-caps;
+	letter-spacing:0.05em;
+	background:#c00;
+	color:#fff;
+	text-decoration:none;
+	padding:5px;
+	
+	text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	-moz-box-shadow:0 0 5px rgba(0,0,0,0);
+	-webkit-box-shadow:0 0 5px rgba(0,0,0,0);
+	box-shadow:0 0 5px rgba(0,0,0,0);
+}
+.link a:hover{
+	-moz-box-shadow:0 0 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow:0 0 5px rgba(0,0,0,0.5);
+	box-shadow:0 0 5px rgba(0,0,0,0.5);
+}
+*/
+
+.price{
+	display:block;
+	text-align:right;
+	margin-bottom:24px;
+}
 
 
 

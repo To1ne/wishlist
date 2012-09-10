@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
-  <ul class="posts">
+  <ul class="wish-list">
     {% for post in site.posts %}
+    <li>
         {% include item.html %}
+    </li>
     {% endfor %}
   </ul>
