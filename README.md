@@ -1,5 +1,6 @@
-# Mobile and print optimised Christmas Wish-list
+# My wishlist
 
-So that nerds can tell their loved ones what they want for Christmas.
+This wishlist is based on an idea of [@janole](https://twitter.com/janole).
 
-Demo: [http://dl.dropbox.com/u/2629908/xmas-list/index.html](http://dl.dropbox.com/u/2629908/xmas-list/index.html)
+Please visit the result on GitHub Pages.
+Or fork this repo to create your own list.
