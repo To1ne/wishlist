@@ -1,0 +1,14 @@
+<h2>{{ post.title }}</h2>
+<img src=img/items/{{ post.img }} alt="" class=photo>
+<p>{{ post.description }}</p>
+{% if post.link1 %}
+<ul class="nav item-links">
+  <li><a href={{ post.link1 }}>Kopen</a></li>
+{% if post.link2 %}
+  <li><a href={{ post.link2 }}>Kopen</a></li>
+{% endif %}
+{% if post.link3 %}
+  <li><a href={{ post.link3 }}>Kopen</a></li>
+{% endif %}
+</ul>
+{% endif %}
