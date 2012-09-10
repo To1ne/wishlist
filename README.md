@@ -29,6 +29,7 @@ To host your own wishlist:
 # TODO
 Some things still need some work:
 
+- Categories (e.g. Books)
 - Priorities, or some way to order the items.
 - Automatically add the image (if found).
 - Get rid of the filename format in `_posts`.
