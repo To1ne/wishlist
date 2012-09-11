@@ -33,3 +33,4 @@ Some things still need some work:
 - Priorities, or some way to order the items.
 - Automatically add the image (if found).
 - Get rid of the filename format in `_posts`.
+- Maybe categorize on price?
