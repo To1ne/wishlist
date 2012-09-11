@@ -1,0 +1,11 @@
+---
+layout: default
+title:  Toon&rsquo;s Books Wishlist
+---
+  <ul class="wish-list">
+    {% for post in site.categories.books %}
+    <li>
+        {% include item.html %}
+    </li>
+    {% endfor %}
+  </ul>
