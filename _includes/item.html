@@ -1,17 +1,17 @@
 <h2>{{ post.title }}</h2>
 <img src="img/items/{{ post.img }}" alt="" class="photo" />
 {% if post.price %}
-<p><span class="price">{{ post.price | replace:'EUR','€' | escape_once }}</span></p>
+<p><span class="price">{{ post.price | escape_once | replace:'EUR','&euro;' }}</span></p>
 {% endif %}
 <p>{{ post.description }}</p>
 {% if post.link1 %}
 <ul class="nav item-links">
-  <li><span class="link"><a href={{ post.link1 }}>Kopen</a></span></li>
+  <li><span class="link"><a href="{{ post.link1 | escape }}">Kopen</a></span></li>
 {% if post.link2 %}
-  <li><span class="link"><a href={{ post.link2 }}>Kopen</a></span></li>
+  <li><span class="link"><a href="{{ post.link2 | escape }}">Kopen</a></span></li>
 {% endif %}
 {% if post.link3 %}
-  <li><span class="link"><a href={{ post.link3 }}>Kopen</a></span></li>
+  <li><span class="link"><a href="{{ post.link3 | escape }}">Kopen</a></span></li>
 {% endif %}
 </ul>
 {% endif %}
