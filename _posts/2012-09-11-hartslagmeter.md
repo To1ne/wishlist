@@ -1,7 +1,7 @@
 --- 
 layout: item
 title: Harslagmeter
-description: Borstband hartslagmeter.
-img: garmin-hartslagsensor.jpg
-link1: http://www.hartslagmetercenter.be/product/50846/category-12589-borstbanden/garmin-ant-hartslagsensor-borstband.html
+description: Sports Tracker Heart Rate Monitor SMART.
+img: smart-heart-rate-monitor.png
+link1: http://shop.sports-tracker.com/heart-rate-monitors-2/heart-rate-monitor-smart.html
 ---
