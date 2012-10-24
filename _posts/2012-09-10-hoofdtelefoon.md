@@ -1,7 +1,7 @@
 --- 
 layout: item
 title: Hoofdtelefoon
-description: Draadloze hoofdtelefoon.
-img: sennheiser-rs170.jpg
-link1: http://www.hoofdtelefoonstore.be/product/88882/category-7422-hoofdtelefoons/sennheiser-rs170-draadloze-hoofdtelefoon.html
+description: Sennheiser HD 280 PRO.
+img: sennheiser_hd_280.png
+link1: http://en-de.sennheiser.com/hd-280-pro
 ---
