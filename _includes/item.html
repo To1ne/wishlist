@@ -1,4 +1,4 @@
-<h2>{{ post.title }}</h2>
+<h2 id="{{ post.id | replace:'./', '' }}"><a class="anchor" href="#{{ post.id | replace:'./', '' }}">#</a>{{ post.title }}</h2>
 <img src="img/items/{{ post.img }}" alt="" class="photo" />
 {% if post.price %}
 <p><span class="price">{{ post.price | escape_once | replace:'EUR','&euro;' }}</span></p>
