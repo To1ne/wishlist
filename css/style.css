@@ -140,20 +140,7 @@ textarea:focus{
 	cursor:text;
 }
 
-h2 a.anchor{
-    display:none;
-    margin-right:-1rem;
-    overflow: visible;
-    color:#ccc;
-    font-weight:normal;
-    font-size:1.5rem;
-    position:relative;
-    left:-1rem;
-    width:1rem;
-}
-
-h2:hover a.anchor{
-    display:inline-block;
+h2 a:hover{
     text-decoration:none;
 }
 
