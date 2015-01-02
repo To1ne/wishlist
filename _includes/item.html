@@ -1,17 +1,18 @@
-<h2>{{ post.title }}</h2>
-<img src="img/items/{{ post.img }}" alt="" class="photo" />
-{% if post.price %}
-<p><span class="price">{{ post.price | escape_once | replace:'EUR','&euro;' }}</span></p>
+{% capture itemid %}{{ item.title | replace:' ', '' }}{% endcapture %}
+<h2 id="{{ itemid }}"><a href="#{{ itemid }}">{{ item.title }}</a></h2>
+<img src="img/items/{{ item.img }}" alt="" class="photo" />
+{% if item.price %}
+<p><span class="price">{{ item.price | escape_once | replace:'EUR','&euro;' }}</span></p>
 {% endif %}
-<p>{{ post.description }}</p>
-{% if post.link1 %}
+<p>{{ item.description }}</p>
+{% if item.link1 %}
 <ul class="nav item-links">
-  <li><span class="link"><a href="{{ post.link1 | escape }}">Buy</a></span></li>
-{% if post.link2 %}
-  <li><span class="link"><a href="{{ post.link2 | escape }}">Buy</a></span></li>
+  <li><span class="link"><a href="{{ item.link1 | escape }}">Kopen</a></span></li>
+{% if item.link2 %}
+  <li><span class="link"><a href="{{ item.link2 | escape }}">Kopen</a></span></li>
 {% endif %}
-{% if post.link3 %}
-  <li><span class="link"><a href="{{ post.link3 | escape }}">Buy</a></span></li>
+{% if item.link3 %}
+  <li><span class="link"><a href="{{ item.link3 | escape }}">Kopen</a></span></li>
 {% endif %}
 </ul>
 {% endif %}
