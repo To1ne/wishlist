@@ -1,0 +1,100 @@
+- title: Soldeerbout
+  description: Soldeerbout voor elektronica.
+  img: soldeerbout.jpg
+  link1: http://www.conrad.be/ce/nl/product/588489/TOOLCRAFT-Dual-power-soldeerstation-3060-W230-VAC-Vermogen-3060-W-Soldeerpunttype-omvang-levering-Beitelvorm?ref=list
+
+- title: Cherry MX Brown (80 stuks)
+  description: Switches voor mijn ErgoDox.
+  img: cherry-mx-brown.jpg
+  link1: http://deskthority.net/group-buys-f50/cherry-mx-taking-pre-orders-t2760.html
+  price: EUR 0,65 / stuk
+
+- title: The Simpsons Lego huis
+  description: Het huis van The Simpsons in Lego.
+  img: lego-simpsons-house.jpg
+
+- title: Nikon D5300
+  description: Spiegelreflex camera met Wifi & GPS.
+  img: nikon-d5300.jpg
+  link1: http://www.camerashop.be/product/394376/nikon-d5300-af-s-18-55mm-f-3-5-5-6-vr-antraciet.html?_ga=1.185629737.1255793472.1413917121
+  price: EUR 679
+
+- title: Vibram Five Fingers loopshoenen
+  description: Nieuwe loopschoenen om mijne oude te vervangen (maat 42).
+  img: bikila-evo-yellowblue-hero.jpg
+  link1: http://www.anyonesrunshop.nl/vff-bikila-evo-barefootstyle-natuurlijk-natural-running-marathon-wedstrijdschoen.html
+  price: EUR 134,95
+
+- title: Haakse slijper
+  description: Haakse slijpmachine.
+  img: slijper.jpg
+
+- title: Boormachine
+  description: Elektrische boormachine.
+  img: boormachine.jpg
+
+- title: Canon P-215
+  description: Een scanner om heel eenvoudig alle documenten te digitaliseren.
+  img: canon-p215.jpg
+  link1: http://www.scannercenter.be/product/192170/canon-p-215.html
+  price: EUR 299,95
+
+- title: Roeitrainer
+  description: Roeitrainer.
+  img: roeitrainer.jpg
+
+- title: Lederen handschoenen
+  description: Stijlvolle lederen handschoenen
+  img: handschoenen.jpg
+  link1: http://www.hoedshop.nl/Sting-Heren-Handschoenen-by-Roeckl.html
+  price: EUR 119,00
+
+- title: Vouwfiets
+  description: Brompton vouwfiets.
+  img: brompton.jpg
+
+- title: Fles whisky
+  description: Lekkere fles whisky.
+  img: lagavulin.png
+  link1: http://www.malts.com/index.php/nl_be/Onze-whisky-s/Lagavulin
+
+- title: Scheerkit
+  description: Een volledige kit om op de klassieke manier te scheren.
+  img: scheerkit.jpg
+  link1: http://www.messenwinkel.eu/Beginnerspakket.html
+  price: EUR190.00
+
+- title: Zwitsers zakmes
+  description: Victorinox Zakmes.
+  img: victorinox.jpg
+  link1: http://www.asadventure.com/benl/index.cfm/product/victorinox-zakmes-huntsman-rvs/fuseaction/products.detail/code/2811XX0010/id_colour/5806
+
+- title: Werkschoenen
+  description: Nieuwe werkschoenen.
+  img: safety-jogger.jpg
+  link1: http://www.safetyjogger.com/nl/werkschoenen/aura
+
+- title: The Art of Computer Programming
+  description: The Art of Computer Programming van Donald Knuth.
+  img: taocp.jpg
+  category: books
+
+- title: Hoofdtelefoon
+  description: Sennheiser HD 280 PRO.
+  img: sennheiser_hd_280.png
+  link1: http://en-de.sennheiser.com/hd-280-pro
+
+- title: GNU Emacs
+  description: Complete GNU Emacs handleiding.
+  img: gnu-emacs-manual.jpg
+  category: books
+
+- title: GNU Emacs Lisp
+  description: Complete handleiding over GNU Emacs Lisp.
+  img: gnu-emacs-lisp.png
+  category: books
+
+- title: C++
+  description: C++ Programming Language.
+  img: c++-programming-language.png
+  category: books
