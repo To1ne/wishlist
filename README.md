@@ -1,8 +1,9 @@
 # My wishlist
 
-This wishlist is created, based on an idea of [@csswizardry](http://csswizardry.com).
+This wishlist is created, based on an idea and design of
+[@csswizardry](http://csswizardry.com).
 
-Please visit my wishlist at [iotcl.net/wishlist](http://iotcl.net/wishlist/).
+Please visit my wishlist at [iotcl.com/wishlist](http://iotcl.com/wishlist/).
 
 # Your wishlist
 To host your own wishlist:
