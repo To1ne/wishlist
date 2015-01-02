@@ -3,9 +3,11 @@ layout: default
 title:  Toon&rsquo;s Books Wishlist
 ---
   <ul class="wish-list">
-    {% for post in site.categories.books %}
+    {% for item in site.data.items %}
+    {% if item.category == 'books' %}
     <li>
         {% include item.html %}
     </li>
+    {% endif %}
     {% endfor %}
   </ul>
